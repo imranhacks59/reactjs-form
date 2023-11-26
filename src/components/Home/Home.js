@@ -24,7 +24,16 @@ const Home = () => {
     const [selectedProduct, setSelectedProduct] = useState('');
     const formSubmit = () => {
        const myform=new FormData();
-       myform.set('lead_name',leadName)
+       myform.set('lead_name',leadName);
+       myform.set('phone_number',phoneNumber);
+       myform.set('email',email);
+       myform.set('address',address);
+       myform.set('sale_value',saleValue);
+       myform.set('date',date);
+       myform.set('time',time);
+       myform.set('note',note);
+       myform.set('selected_option',selectedOption);
+       myform.set('selected_product',selectedProduct);
     }
     return (
         <Fragment>
