@@ -1,0 +1,160 @@
+body{
+    background: #EBF0F4;
+
+}
+.homeContainer{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw;
+    /* background: #EBF0F4; */
+    /* padding: 2vmax 3vmax 1vmax 7vmax; */
+    
+}
+.homeContainerBox{
+margin: 2vmax 3vmax 1vmax 7vmax;
+}
+.homePageHeading{
+    display: flex;
+    justify-content: space-between;
+}
+.homePageHeading>p{
+    color: #000;
+    font-family: Gilroy-Black;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 7px;
+}
+.homePageHeading>img{
+    width: 168px;
+    height: 75px;
+}
+.addnewLeadForm>p{
+    color: #000;
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.addnewLeadForm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vmax;
+}
+.addnewLeadForm>div{
+    border-radius: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.50);
+    width: 114px;
+    height: 47px;
+    flex-shrink: 0;
+    background: rgba(217, 217, 217, 0.00);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 15px;
+
+}
+.addnewLeadForm>div>p{
+    color: #DF3737;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+  
+  .leadForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 2vmax;
+    justify-content: space-evenly;
+    height: 70%;
+    transition: all 0.5s;
+  }
+  .leadInput{
+    width: 100%;
+    margin-top: 10px    ;
+  }
+  .leadInput > div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .locationImage>img{
+    width: 85vw;
+   margin: 1vmax 0vmax 0vmax 1vmax;
+
+  }
+  .leadInput > div > input,select,textarea {
+    padding: 1vmax 4vmax;
+    padding-right: 1vmax;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    font: 300 0.9vmax ;
+    outline: none;
+  }
+  
+  .leadInput > div > svg {
+    position: absolute;
+    transform: translateX(1vmax);
+    font-size: 1.6vmax;
+    color: #3FAEFD;
+  }
+  .leadInput{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .submitBtn {
+    border: none;
+    background-color: #3A4B86;
+    color: white;
+    font: 300 0.9vmax "Roboto";
+    width: 100%;
+    padding: 0.8vmax;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.219);
+    margin-top: 2vmax;
+  }
+  
+  .submitBtn:hover {
+    background-color: rgb(57, 84, 104);
+  }
+  
+  @media screen and (max-width: 600px) {
+   
+    .homeContainerBox{
+        margin: 1vmax 1vmax 1vmax 1vmax;
+        }
+  
+    .leadForm {
+      padding: 1vmax;
+    }
+  
+    .leadInput > div > input {
+      padding: 2.5vmax 5vmax;
+      font: 300 1.7vmax;
+    }
+  
+    .leadInput > div > svg {
+      font-size: 2.8vmax;
+    }
+  
+  
+    .submitBtn {
+      font: 300 1.9vmax "Roboto";
+      padding: 1.8vmax;
+    }
+  }
+  
